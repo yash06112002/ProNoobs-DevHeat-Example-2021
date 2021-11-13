@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,32 +9,37 @@
     <title>Document</title>
 </head>
 
-    <body style="background-color: rgb(65, 150, 230);" >
-      <img src="images/family.jpg" id="family">
-      <img src="images/family2.jpg" id="family2">
-        <div class="card">
-        <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">HouseHold Expenses</h1>
-        <br>
-      
-        <form >
-            Light Bill 👉 <input type="number" id="bill"><br><br>
-            Water Bill 👉 <input type="number" id="bill"><br><br>
-            Internet Bill 👉 <input type="number" id="bill"><br><br>
-           <id style="font-size: 18px;"> Phone Recharge Bill 👉 <input type="number" id="bill"></id><br><br>
-            Milk Man Charge 👉 <input type="number" id="bill"> <br><br>
-            Grossery 👉 <input type="number" id="bill"> <br><br>
-
-        </form>
-
-    </div>
+<body style="background-color: rgb(65, 150, 230);">
+<img src="images/family.jpg" id="family">
+<img src="images/family2.jpg" id="family2">
+<div class="card">
+    <h1
+            style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+        HouseHold Expenses</h1>
     <br>
-    <br>
-    <a href="2_ndpage.html" id="button">Next</a>
-    
-      </body>
+
+    <form>
+        Light Bill 👉 <input type="number" id="light-bill" class="bill"><br><br>
+        Water Bill 👉 <input type="number" id="water-bill" class="bill"><br><br>
+        Internet Bill 👉 <input type="number" id="int-bill" class="bill"><br><br>
+        <id style="font-size: 18px;">
+            Phone Recharge Bill 👉 <input type="number" id="phone-bill" class="bill">
+        </id><br><br>
+        Milk Man Charge 👉 <input type="number" id="milk-bill" class="bill"> <br><br>
+        Grossery 👉 <input type="number" id="gross-bill" class="bill"> <br><br>
+
+    </form>
+    <button onclick="myFunction()">Try it</button>
+    <p id="demo"></p>
+</div>
+<br>
+<br>
+<a href="2_ndpage.html" id="button">Next</a>
+<script src="script.js"></script>
+</body>
 
 
 
-      
+
 
 </html>
